@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		870D464120E77AA5004F7AF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 870D464020E77AA5004F7AF0 /* AppDelegate.m */; };
+		870D464420E77AA5004F7AF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 870D464320E77AA5004F7AF0 /* ViewController.m */; };
+		870D464720E77AA5004F7AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870D464520E77AA5004F7AF0 /* Main.storyboard */; };
+		870D464920E77AA6004F7AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870D464820E77AA6004F7AF0 /* Assets.xcassets */; };
+		870D464C20E77AA6004F7AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870D464A20E77AA6004F7AF0 /* LaunchScreen.storyboard */; };
+		870D464F20E77AA6004F7AF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 870D464E20E77AA6004F7AF0 /* main.m */; };
+		870D465920E77AA6004F7AF0 /* TabGroupCollapsibleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 870D465820E77AA6004F7AF0 /* TabGroupCollapsibleTests.m */; };
+		870D466420E77AA6004F7AF0 /* TabGroupCollapsibleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 870D466320E77AA6004F7AF0 /* TabGroupCollapsibleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		870D465520E77AA6004F7AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D463420E77AA4004F7AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 870D463B20E77AA4004F7AF0;
+			remoteInfo = TabGroupCollapsible;
+		};
+		870D466020E77AA6004F7AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D463420E77AA4004F7AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 870D463B20E77AA4004F7AF0;
+			remoteInfo = TabGroupCollapsible;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		870D463C20E77AA4004F7AF0 /* TabGroupCollapsible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabGroupCollapsible.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		870D463F20E77AA4004F7AF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		870D464020E77AA5004F7AF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		870D464220E77AA5004F7AF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		870D464320E77AA5004F7AF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		870D464620E77AA5004F7AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		870D464820E77AA6004F7AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		870D464B20E77AA6004F7AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		870D464D20E77AA6004F7AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870D464E20E77AA6004F7AF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		870D465420E77AA6004F7AF0 /* TabGroupCollapsibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabGroupCollapsibleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		870D465820E77AA6004F7AF0 /* TabGroupCollapsibleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabGroupCollapsibleTests.m; sourceTree = "<group>"; };
+		870D465A20E77AA6004F7AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870D465F20E77AA6004F7AF0 /* TabGroupCollapsibleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabGroupCollapsibleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		870D466320E77AA6004F7AF0 /* TabGroupCollapsibleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabGroupCollapsibleUITests.m; sourceTree = "<group>"; };
+		870D466520E77AA6004F7AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		870D463920E77AA4004F7AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870D465120E77AA6004F7AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870D465C20E77AA6004F7AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		870D463320E77AA4004F7AF0 = {
+			isa = PBXGroup;
+			children = (
+				870D463E20E77AA4004F7AF0 /* TabGroupCollapsible */,
+				870D465720E77AA6004F7AF0 /* TabGroupCollapsibleTests */,
+				870D466220E77AA6004F7AF0 /* TabGroupCollapsibleUITests */,
+				870D463D20E77AA4004F7AF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		870D463D20E77AA4004F7AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				870D463C20E77AA4004F7AF0 /* TabGroupCollapsible.app */,
+				870D465420E77AA6004F7AF0 /* TabGroupCollapsibleTests.xctest */,
+				870D465F20E77AA6004F7AF0 /* TabGroupCollapsibleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		870D463E20E77AA4004F7AF0 /* TabGroupCollapsible */ = {
+			isa = PBXGroup;
+			children = (
+				870D463F20E77AA4004F7AF0 /* AppDelegate.h */,
+				870D464020E77AA5004F7AF0 /* AppDelegate.m */,
+				870D464220E77AA5004F7AF0 /* ViewController.h */,
+				870D464320E77AA5004F7AF0 /* ViewController.m */,
+				870D464520E77AA5004F7AF0 /* Main.storyboard */,
+				870D464820E77AA6004F7AF0 /* Assets.xcassets */,
+				870D464A20E77AA6004F7AF0 /* LaunchScreen.storyboard */,
+				870D464D20E77AA6004F7AF0 /* Info.plist */,
+				870D464E20E77AA6004F7AF0 /* main.m */,
+			);
+			path = TabGroupCollapsible;
+			sourceTree = "<group>";
+		};
+		870D465720E77AA6004F7AF0 /* TabGroupCollapsibleTests */ = {
+			isa = PBXGroup;
+			children = (
+				870D465820E77AA6004F7AF0 /* TabGroupCollapsibleTests.m */,
+				870D465A20E77AA6004F7AF0 /* Info.plist */,
+			);
+			path = TabGroupCollapsibleTests;
+			sourceTree = "<group>";
+		};
+		870D466220E77AA6004F7AF0 /* TabGroupCollapsibleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				870D466320E77AA6004F7AF0 /* TabGroupCollapsibleUITests.m */,
+				870D466520E77AA6004F7AF0 /* Info.plist */,
+			);
+			path = TabGroupCollapsibleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		870D463B20E77AA4004F7AF0 /* TabGroupCollapsible */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870D466820E77AA6004F7AF0 /* Build configuration list for PBXNativeTarget "TabGroupCollapsible" */;
+			buildPhases = (
+				870D463820E77AA4004F7AF0 /* Sources */,
+				870D463920E77AA4004F7AF0 /* Frameworks */,
+				870D463A20E77AA4004F7AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabGroupCollapsible;
+			productName = TabGroupCollapsible;
+			productReference = 870D463C20E77AA4004F7AF0 /* TabGroupCollapsible.app */;
+			productType = "com.apple.product-type.application";
+		};
+		870D465320E77AA6004F7AF0 /* TabGroupCollapsibleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870D466B20E77AA6004F7AF0 /* Build configuration list for PBXNativeTarget "TabGroupCollapsibleTests" */;
+			buildPhases = (
+				870D465020E77AA6004F7AF0 /* Sources */,
+				870D465120E77AA6004F7AF0 /* Frameworks */,
+				870D465220E77AA6004F7AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				870D465620E77AA6004F7AF0 /* PBXTargetDependency */,
+			);
+			name = TabGroupCollapsibleTests;
+			productName = TabGroupCollapsibleTests;
+			productReference = 870D465420E77AA6004F7AF0 /* TabGroupCollapsibleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		870D465E20E77AA6004F7AF0 /* TabGroupCollapsibleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870D466E20E77AA6004F7AF0 /* Build configuration list for PBXNativeTarget "TabGroupCollapsibleUITests" */;
+			buildPhases = (
+				870D465B20E77AA6004F7AF0 /* Sources */,
+				870D465C20E77AA6004F7AF0 /* Frameworks */,
+				870D465D20E77AA6004F7AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				870D466120E77AA6004F7AF0 /* PBXTargetDependency */,
+			);
+			name = TabGroupCollapsibleUITests;
+			productName = TabGroupCollapsibleUITests;
+			productReference = 870D465F20E77AA6004F7AF0 /* TabGroupCollapsibleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		870D463420E77AA4004F7AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "苏庆林";
+				TargetAttributes = {
+					870D463B20E77AA4004F7AF0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					870D465320E77AA6004F7AF0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 870D463B20E77AA4004F7AF0;
+					};
+					870D465E20E77AA6004F7AF0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 870D463B20E77AA4004F7AF0;
+					};
+				};
+			};
+			buildConfigurationList = 870D463720E77AA4004F7AF0 /* Build configuration list for PBXProject "TabGroupCollapsible" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 870D463320E77AA4004F7AF0;
+			productRefGroup = 870D463D20E77AA4004F7AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				870D463B20E77AA4004F7AF0 /* TabGroupCollapsible */,
+				870D465320E77AA6004F7AF0 /* TabGroupCollapsibleTests */,
+				870D465E20E77AA6004F7AF0 /* TabGroupCollapsibleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		870D463A20E77AA4004F7AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870D464C20E77AA6004F7AF0 /* LaunchScreen.storyboard in Resources */,
+				870D464920E77AA6004F7AF0 /* Assets.xcassets in Resources */,
+				870D464720E77AA5004F7AF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870D465220E77AA6004F7AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870D465D20E77AA6004F7AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		870D463820E77AA4004F7AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870D464420E77AA5004F7AF0 /* ViewController.m in Sources */,
+				870D464F20E77AA6004F7AF0 /* main.m in Sources */,
+				870D464120E77AA5004F7AF0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870D465020E77AA6004F7AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870D465920E77AA6004F7AF0 /* TabGroupCollapsibleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870D465B20E77AA6004F7AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870D466420E77AA6004F7AF0 /* TabGroupCollapsibleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		870D465620E77AA6004F7AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 870D463B20E77AA4004F7AF0 /* TabGroupCollapsible */;
+			targetProxy = 870D465520E77AA6004F7AF0 /* PBXContainerItemProxy */;
+		};
+		870D466120E77AA6004F7AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 870D463B20E77AA4004F7AF0 /* TabGroupCollapsible */;
+			targetProxy = 870D466020E77AA6004F7AF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		870D464520E77AA5004F7AF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870D464620E77AA5004F7AF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		870D464A20E77AA6004F7AF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870D464B20E77AA6004F7AF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		870D466620E77AA6004F7AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		870D466720E77AA6004F7AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		870D466920E77AA6004F7AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabGroupCollapsible/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lin.TabGroupCollapsible;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		870D466A20E77AA6004F7AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabGroupCollapsible/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lin.TabGroupCollapsible;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		870D466C20E77AA6004F7AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabGroupCollapsibleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lin.TabGroupCollapsibleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabGroupCollapsible.app/TabGroupCollapsible";
+			};
+			name = Debug;
+		};
+		870D466D20E77AA6004F7AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabGroupCollapsibleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lin.TabGroupCollapsibleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabGroupCollapsible.app/TabGroupCollapsible";
+			};
+			name = Release;
+		};
+		870D466F20E77AA6004F7AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabGroupCollapsibleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lin.TabGroupCollapsibleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabGroupCollapsible;
+			};
+			name = Debug;
+		};
+		870D467020E77AA6004F7AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabGroupCollapsibleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lin.TabGroupCollapsibleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabGroupCollapsible;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		870D463720E77AA4004F7AF0 /* Build configuration list for PBXProject "TabGroupCollapsible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870D466620E77AA6004F7AF0 /* Debug */,
+				870D466720E77AA6004F7AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870D466820E77AA6004F7AF0 /* Build configuration list for PBXNativeTarget "TabGroupCollapsible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870D466920E77AA6004F7AF0 /* Debug */,
+				870D466A20E77AA6004F7AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870D466B20E77AA6004F7AF0 /* Build configuration list for PBXNativeTarget "TabGroupCollapsibleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870D466C20E77AA6004F7AF0 /* Debug */,
+				870D466D20E77AA6004F7AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870D466E20E77AA6004F7AF0 /* Build configuration list for PBXNativeTarget "TabGroupCollapsibleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870D466F20E77AA6004F7AF0 /* Debug */,
+				870D467020E77AA6004F7AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 870D463420E77AA4004F7AF0 /* Project object */;
+}
